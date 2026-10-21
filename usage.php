@@ -562,7 +562,7 @@ class plgGroupsUsage extends \Hubzero\Plugin\Plugin
 					}
 				}
 
-				
+				var chartEl = document.getElementById('page_views_chart');
 				// [a11y] Google Charts adds aria-label on bare div without role;
 				// observe the chart container and add role=img when they appear
 				new MutationObserver(function(mutations, obs) {
